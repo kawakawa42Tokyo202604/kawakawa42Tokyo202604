@@ -3,10 +3,10 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/C-39FF14?style=for-the-badge&labelColor=101510&logo=c&logoColor=39FF14" alt="C" />
-  <img src="https://img.shields.io/badge/Python-39FF14?style=for-the-badge&labelColor=101510&logo=python&logoColor=39FF14" alt="Python" />
-  <img src="https://img.shields.io/badge/Docker-39FF14?style=for-the-badge&labelColor=101510&logo=docker&logoColor=39FF14" alt="Docker" />
-  <img src="https://img.shields.io/badge/Linux-39FF14?style=for-the-badge&labelColor=101510&logo=linux&logoColor=39FF14" alt="Linux" />
+  <img src="https://img.shields.io/badge/C-1F6F43?style=flat-square&labelColor=0D1117&logo=c&logoColor=79D99A" alt="C" />
+  <img src="https://img.shields.io/badge/Python-1F6F43?style=flat-square&labelColor=0D1117&logo=python&logoColor=79D99A" alt="Python" />
+  <img src="https://img.shields.io/badge/Docker-1F6F43?style=flat-square&labelColor=0D1117&logo=docker&logoColor=79D99A" alt="Docker" />
+  <img src="https://img.shields.io/badge/Linux-1F6F43?style=flat-square&labelColor=0D1117&logo=linux&logoColor=79D99A" alt="Linux" />
 </p>
 
 ## 🟢 About
