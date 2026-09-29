@@ -23,7 +23,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&bg_color=0D1117&title_color=39FF14&text_color=C9F7D2&icon_color=39FF14
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&bg_color=0D1117&title_color=39FF14&text_color=C9F7D2&icon_color=39FF14&custom_title=kawakawa%27s%20Github%20Stats
           path: assets/github-stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true
