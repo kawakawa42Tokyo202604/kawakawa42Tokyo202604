@@ -26,9 +26,9 @@ I build software through hands-on projects, with a focus on C, concurrency, algo
 
 <p align="center">
   <a href="https://github.com/kawakawa42Tokyo202604">
-    <img height="165" src="https://github-readme-stats.vercel.app/api?username=kawakawa42Tokyo202604&show_icons=true&hide_border=true&bg_color=0D1117&title_color=39FF14&text_color=C9F7D2&icon_color=39FF14" alt="GitHub statistics for kawakawa42Tokyo202604" />
+    <img height="165" src="assets/github-stats.svg" alt="GitHub statistics for kawakawa42Tokyo202604" />
   </a>
   <a href="https://github.com/kawakawa42Tokyo202604">
-    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kawakawa42Tokyo202604&layout=compact&langs_count=6&hide_border=true&bg_color=0D1117&title_color=39FF14&text_color=C9F7D2&icon_color=39FF14" alt="Most used languages for kawakawa42Tokyo202604" />
+    <img height="165" src="assets/top-langs.svg" alt="Most used languages for kawakawa42Tokyo202604" />
   </a>
 </p>

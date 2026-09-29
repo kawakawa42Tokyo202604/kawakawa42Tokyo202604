@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="180" viewBox="0 0 440 180" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub statistics for kawakawa42Tokyo202604</title>
+  <desc id="desc">Public data as of 2026-09-29: 3 repositories, 3 stars received, and 13 followers.</desc>
+  <rect x="0.5" y="0.5" width="439" height="179" rx="12" fill="#0D1117" stroke="#245333" />
+  <text x="24" y="33" fill="#39FF14" font-family="monospace" font-size="17" font-weight="700">GitHub statistics</text>
+  <text x="24" y="55" fill="#91A998" font-family="monospace" font-size="12">kawakawa42Tokyo202604</text>
+  <path d="M24 69 H416" stroke="#245333" />
+  <text x="24" y="119" fill="#F0FFF2" font-family="monospace" font-size="34" font-weight="700">3</text>
+  <text x="24" y="143" fill="#91A998" font-family="monospace" font-size="11">PUBLIC REPOS</text>
+  <text x="168" y="119" fill="#F0FFF2" font-family="monospace" font-size="34" font-weight="700">3</text>
+  <text x="168" y="143" fill="#91A998" font-family="monospace" font-size="11">STARS RECEIVED</text>
+  <text x="322" y="119" fill="#F0FFF2" font-family="monospace" font-size="34" font-weight="700">13</text>
+  <text x="322" y="143" fill="#91A998" font-family="monospace" font-size="11">FOLLOWERS</text>
+  <text x="24" y="166" fill="#4F8860" font-family="monospace" font-size="10">PUBLIC DATA · 2026-09-29</text>
+</svg>
