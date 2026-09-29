@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/profile-header.svg" alt="takawaka | 42 Tokyo · Systems Programming · Infrastructure" width="100%" />
+  <img src="assets/profile-header.svg" alt="kawakawa | 42 Tokyo · Systems Programming · Infrastructure" width="100%" />
 </p>
 
 <p align="center">
