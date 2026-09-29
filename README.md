@@ -26,7 +26,7 @@ I build software through hands-on projects, with a focus on C, concurrency, algo
 
 <p align="center">
   <a href="https://github.com/kawakawa42Tokyo202604">
-    <img height="165" src="assets/github-stats.svg" alt="GitHub statistics for kawakawa42Tokyo202604" />
+    <img height="165" src="assets/github-stats.svg" alt="kawakawa's Github Stats" />
   </a>
   <a href="https://github.com/kawakawa42Tokyo202604">
     <img height="165" src="assets/top-langs.svg" alt="Most used languages for kawakawa42Tokyo202604" />
