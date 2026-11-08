@@ -2,13 +2,6 @@
   <img src="assets/profile-header.svg" alt="kawakawa | 42 Tokyo · Systems Programming · Infrastructure" width="100%" />
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/C-1F6F43?style=flat-square&labelColor=0D1117&logo=c&logoColor=79D99A" alt="C" />
-  <img src="https://img.shields.io/badge/Python-1F6F43?style=flat-square&labelColor=0D1117&logo=python&logoColor=79D99A" alt="Python" />
-  <img src="https://img.shields.io/badge/Docker-1F6F43?style=flat-square&labelColor=0D1117&logo=docker&logoColor=79D99A" alt="Docker" />
-  <img src="https://img.shields.io/badge/Linux-1F6F43?style=flat-square&labelColor=0D1117&logo=linux&logoColor=79D99A" alt="Linux" />
-</p>
-
 ## 🟢 About
 
 42 Tokyoのプロジェクトを通じて、Cのシステムプログラミング、並行処理、アルゴリズム設計、Dockerを使ったインフラ構築に取り組んでいます。
@@ -20,14 +13,35 @@ I build software through hands-on projects, with a focus on C, concurrency, algo
 - **Focus** — メモリ管理、共有リソースの同期、ソート・迷路生成アルゴリズム、コンテナによるサービスの分離。
 - **Code** — 学習課題と実装を [42Tokyocursus](https://github.com/kawakawa42Tokyo202604/42Tokyocursus) にまとめています。
 
-**Tech used in projects**
+## 🟢 Tech Stack
+
+<table align="center">
+  <tr>
+    <td align="center" width="88"><img height="56" width="56" src="https://skillicons.dev/icons?i=c&theme=dark" alt="C" /><br />C</td>
+    <td align="center" width="88"><img height="56" width="56" src="https://skillicons.dev/icons?i=python&theme=dark" alt="Python" /><br />Python</td>
+    <td align="center" width="88"><img height="56" width="56" src="https://skillicons.dev/icons?i=go&theme=dark" alt="Go" /><br />Go</td>
+    <td align="center" width="88"><img height="56" width="56" src="https://skillicons.dev/icons?i=bash&theme=dark" alt="Shell" /><br />Shell</td>
+    <td align="center" width="88"><img height="56" width="56" src="https://skillicons.dev/icons?i=linux&theme=dark" alt="Linux" /><br />Linux</td>
+    <td align="center" width="88"><img height="56" width="56" src="https://skillicons.dev/icons?i=docker&theme=dark" alt="Docker" /><br />Docker</td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td align="center" width="88"><img height="56" width="56" src="https://skillicons.dev/icons?i=git&theme=dark" alt="Git" /><br />Git</td>
+    <td align="center" width="88"><img height="56" width="56" src="https://skillicons.dev/icons?i=github&theme=dark" alt="GitHub" /><br />GitHub</td>
+    <td align="center" width="88"><img height="56" width="56" src="https://skillicons.dev/icons?i=vim&theme=dark" alt="Vim" /><br />Vim</td>
+    <td align="center" width="88"><img height="56" width="56" src="https://skillicons.dev/icons?i=vscode&theme=dark" alt="VS Code" /><br />VS Code</td>
+    <td align="center" width="88"><img height="56" width="56" src="assets/k3s.svg" alt="K3s" /><br />K3s</td>
+  </tr>
+</table>
 
 | Category | Technologies |
 | --- | --- |
-| Languages | C / Python / Shell |
+| Languages | C / Python / Go / Shell |
 | Systems | Linux / POSIX Threads / ファイルディスクリプタ / メモリ管理 |
-| Infrastructure | Docker / Docker Compose / NGINX / WordPress / PHP-FPM / MariaDB / Redis |
-| Development | Git / Make / mypy / flake8 / GitHub Actions |
+| Infrastructure | Docker / Docker Compose / K3s / NGINX / WordPress / PHP-FPM / MariaDB / Redis |
+| Development | Git / Make / Vim / VS Code / mypy / flake8 / GitHub Actions |
 
 ## 🟢 Featured projects
 
@@ -58,13 +72,23 @@ I build software through hands-on projects, with a focus on C, concurrency, algo
 
 </details>
 
-## 🟢 GitHub activity
+## 🟢 GitHub Stats
 
 <p align="center">
   <a href="https://github.com/kawakawa42Tokyo202604">
-    <img height="165" src="assets/github-stats.svg" alt="kawakawa's Github Stats" />
+    <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kawakawa42Tokyo202604&theme=github_dark&name=kawakawa&bg_color=0D1117&title_color=79D99A&text_color=C9F7D2&border_color=245333&icon_color=79D99A&chart_color=5FA876" alt="GitHub contributions over the last year" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/kawakawa42Tokyo202604">
+    <img height="180" src="assets/github-stats.svg" alt="kawakawa's GitHub stats" />
   </a>
   <a href="https://github.com/kawakawa42Tokyo202604">
-    <img height="165" src="assets/top-langs.svg" alt="Most used languages for kawakawa42Tokyo202604" />
+    <img height="180" src="assets/top-langs.svg" alt="Most used languages for kawakawa42Tokyo202604" />
   </a>
+</p>
+
+<p align="center">
+  <img height="180" src="https://streak-stats.demolab.com?user=kawakawa42Tokyo202604&theme=dark&hide_border=true&background=0D1117&ring=39FF14&fire=39FF14&currStreakLabel=39FF14&currStreakNum=C9F7D2&sideLabels=C9F7D2&sideNums=C9F7D2&dates=718A76" alt="kawakawa's GitHub contribution streak" />
 </p>
