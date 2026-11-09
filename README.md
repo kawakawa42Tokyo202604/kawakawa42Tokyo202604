@@ -41,7 +41,7 @@ I build software through hands-on projects, with a focus on C, concurrency, algo
 | Languages | C / Python / Go / Shell |
 | Systems | Linux / POSIX Threads / ファイルディスクリプタ / メモリ管理 |
 | Infrastructure | Docker / Docker Compose / K3s / NGINX / WordPress / PHP-FPM / MariaDB / Redis |
-| Development | Git / Make / Vim / VS Code / mypy / flake8 / GitHub Actions |
+| Development | Git / Make / Vim / VS Code / mypy / flake8 |
 
 ## 🟢 Featured projects
 
