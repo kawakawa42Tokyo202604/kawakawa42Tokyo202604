@@ -4,13 +4,13 @@
 
 ## 🟢 About
 
-42 Tokyoのプロジェクトを通じて、Cのシステムプログラミング、並行処理、アルゴリズム設計、Dockerを使ったインフラ構築に取り組んでいます。
+I build C, Python, and Go programs through 42 Tokyo projects, including libraries, route planners, a multiplayer game, LLM function calling, and containerized web infrastructure.
 
-I build software through hands-on projects, with a focus on C, concurrency, algorithms, and containerized infrastructure.
+42 Tokyoのプロジェクトを通じて、C・Python・Goのライブラリ、経路探索、ネットワークゲーム、LLMによる関数呼び出しデータの生成、Dockerを使ったWeb環境の構築に取り組んでいます。
 
 - **Name** — kawakawa
-- **Learning** — 42 Tokyoのカリキュラムを通じて、C・Python・システムプログラミング・インフラを学習しています。
-- **Focus** — メモリ管理、共有リソースの同期、ソート・迷路生成アルゴリズム、コンテナによるサービスの分離。
+- **Learning** — C / Python / Go / Assembly / Systems programming / Infrastructure
+- **Focus** — メモリ管理、並行処理、経路探索、TCP通信、LLMの構造化出力、コンテナによるサービスの分離。
 - **Code** — 学習課題と実装を [42Tokyocursus](https://github.com/kawakawa42Tokyo202604/42Tokyocursus) にまとめています。
 
 ## 🟢 Tech Stack
@@ -38,21 +38,31 @@ I build software through hands-on projects, with a focus on C, concurrency, algo
 
 | Category | Technologies |
 | --- | --- |
-| Languages | C / Python / Go / Shell |
+| Languages | C / Python / Go / Shell / x86-64 Assembly |
 | Systems | Linux / POSIX Threads / ファイルディスクリプタ / メモリ管理 |
 | Infrastructure | Docker / Docker Compose / K3s / NGINX / WordPress / PHP-FPM / MariaDB / Redis |
 | Development | Git / Make / Vim / VS Code / mypy / flake8 |
 
 ## 🟢 Featured projects
 
+- **[The Answer Protocol](https://github.com/kawakawa42Tokyo202604/42Tokyocursus/tree/main/TAP)** — Go / TCP / Fyne<br>
+  A shared text-adventure world with a TCP server, terminal and graphical clients, combat, quests, and chat.<br>
+  ギリシャ神話の世界を複数人で探索するゲーム。Go製のTCPサーバーとCLI・GUIクライアントを実装し、戦闘・クエスト・チャット・状態の保存を扱います。
+- **[Fly-in](https://github.com/kawakawa42Tokyo202604/42Tokyocursus/tree/main/FLYIN)** — Python / Pathfinding<br>
+  Plan drone movements while respecting location capacities, connection capacities, and travel times.<br>
+  複数のドローンを目的地まで運ぶ経路と順番を計算するシミュレーター。各地点・経路の台数制限、通行禁止区域、移動時間を考慮します。
+- **[Call Me Maybe](https://github.com/kawakawa42Tokyo202604/42Tokyocursus/tree/main/callmemaybe)** — Python / LLM / JSON<br>
+  Convert written requests into function names and arguments using a small language model and constrained decoding.<br>
+  文章の指示から、呼び出す関数名と引数をJSONで生成するツール。小型言語モデルの出力候補を制御し、自作のトークン分割と入力検証を組み合わせています。
 - **[Codexion](https://github.com/kawakawa42Tokyo202604/42Tokyocursus/tree/main/codexion)** — C / POSIX Threads<br>
-  共有ドングルを使うコーダーのマルチスレッドシミュレーション。mutex・条件変数による同期、取得順序によるデッドロック防止、FIFO / EDFの優先順位付け、期限の監視とログの直列化を扱います。
+  Simulate developers sharing equipment, with waiting queues and deadlines for their work.<br>
+  複数の開発者が共有機器を順番に使うシミュレーション。スレッド間の同期、要求順・期限順の待ち行列、期限切れの監視を扱います。
 - **[Inception](https://github.com/kawakawa42Tokyo202604/42Tokyocursus/tree/main/Inception)** — Docker / Docker Compose / Shell<br>
-  NGINX・WordPress・MariaDBを個別の自作イメージで動かすWebインフラ。TLS、ネットワーク分離、シークレット管理、データの永続化に加え、Redis・FTP・Adminer・定期バックアップと復元検証を組み合わせています。
+  A WordPress hosting environment with HTTPS, persistent data, backups, and restoration checks.<br>
+  記事を投稿・閲覧できるWordPressサイトの実行環境。NGINX・WordPress・MariaDBを個別のコンテナで動かし、HTTPS・データの永続化・バックアップと復元検証を組み合わせています。
 - **[push_swap](https://github.com/kawakawa42Tokyo202604/42Tokyocursus/tree/main/push_swap)** — C / Sorting algorithms<br>
-  2つのスタックと限られた命令で整数列を整列する課題。Simple・Chunk・Radixの戦略を実装し、入力サイズや乱雑度に応じて選択します。`--bench`で命令数を測定し、ボーナスの`checker`で整列結果を確認できます。
-- **[C projects](https://github.com/kawakawa42Tokyo202604/42Tokyocursus)** — C / Libraries / File I/O<br>
-  `libft`では文字列・メモリ・連結リスト、`ft_printf`では書式解析と可変長引数、`get_next_line`ではバッファと読み取り状態の管理に取り組んでいます。
+  Generate a short sequence of stack operations to sort integers, then validate it with a checker.<br>
+  整数を小さい順に並べるための交換・移動・回転の手順を出力するプログラム。入力に応じた戦略の選択、操作数の計測、検証用checkerを備えています。
 
 <details open>
 <summary>42 Tokyo project list / 課題一覧</summary>
@@ -61,7 +71,7 @@ I build software through hands-on projects, with a focus on C, concurrency, algo
 | --- | --- | --- |
 | [Piscine](https://github.com/kawakawa42Tokyo202604/42Tokyocursus/tree/main/piscine) | C / Shell | Cの基本文法、文字列・配列操作、Shell、Rush、BSQに取り組む課題群。 |
 | [libft](https://github.com/kawakawa42Tokyo202604/42Tokyocursus/tree/main/libft) | C | 標準Cライブラリの基本関数、文字列ユーティリティ、連結リスト操作をまとめた自作ライブラリ。 |
-| [ft_printf](https://github.com/kawakawa42Tokyo202604/42Tokyocursus/tree/main/ft_printf_1) | C | 書式指定文字列を解析し、文字列・数値・ポインタなどを出力する`printf`の一部を再実装。 |
+| [ft_printf](https://github.com/kawakawa42Tokyo202604/42Tokyocursus/tree/main/ft_printf) | C | 書式指定文字列を解析し、文字列・数値・ポインタなどを出力する`printf`の一部を再実装。 |
 | [get_next_line](https://github.com/kawakawa42Tokyo202604/42Tokyocursus/tree/main/get_next_line) | C | ファイルディスクリプタから1行ずつ読み取る関数。ボーナスでは複数の読み取り対象の状態を管理。 |
 | [push_swap](https://github.com/kawakawa42Tokyo202604/42Tokyocursus/tree/main/push_swap) | C | スタック操作によるソート、複数戦略の選択、命令数の計測、`checker`による結果確認。 |
 | [Python modules 00–10](https://github.com/kawakawa42Tokyo202604/42Tokyocursus/tree/main/PythonModule) | Python | 基本文法、オブジェクト指向、例外処理、ファイル入出力、パッケージ、Pydantic、デコレータを学ぶ課題群。 |
@@ -69,6 +79,13 @@ I build software through hands-on projects, with a focus on C, concurrency, algo
 | [A-Maze-ing bonus](https://github.com/kawakawa42Tokyo202604/42Tokyocursus/tree/main/A-maze-ing-bonus) | Python | DFS / Kruskalの生成アルゴリズム切り替え、対話式の表示操作、再利用可能なパッケージ化。 |
 | [Codexion](https://github.com/kawakawa42Tokyo202604/42Tokyocursus/tree/main/codexion) | C / POSIX Threads | 共有リソースの同期、FIFO / EDFの待ち行列、期限の監視を組み合わせた並行処理シミュレーション。 |
 | [Inception](https://github.com/kawakawa42Tokyo202604/42Tokyocursus/tree/main/Inception) | Docker / Shell | 自作コンテナによるWebインフラと、TLS・永続化・キャッシュ・バックアップ・復元検証。 |
+| [The Answer Protocol](https://github.com/kawakawa42Tokyo202604/42Tokyocursus/tree/main/TAP) | Go / TCP / Fyne | 複数人で探索・会話・戦闘を楽しむゲーム。サーバーとCLI・GUIクライアントを実装。 |
+| [Call Me Maybe](https://github.com/kawakawa42Tokyo202604/42Tokyocursus/tree/main/callmemaybe) | Python / LLM | 文章の指示を、関数名と引数を持つJSONデータへ変換。 |
+| [Fly-in](https://github.com/kawakawa42Tokyo202604/42Tokyocursus/tree/main/FLYIN) | Python / Pathfinding | 地点・経路の容量と移動時間を考慮し、複数ドローンの移動を計画。 |
+| [Dr Quine](https://github.com/kawakawa42Tokyo202604/Dr_Quine) | C / Assembly / Go | 自分のソースを表示・保存・連鎖生成する自己複製プログラム。 |
+| [libasm](https://github.com/kawakawa42Tokyo202604/libasm) | x86-64 Assembly | Cから呼び出せる文字列・メモリ・ファイル入出力の基本関数集。 |
+| [Inception of Things](https://github.com/kawakawa42Tokyo202604/Inception-of-Things) | Vagrant / K3s | 開発中。p1のサーバー・ワーカー構成と、p2のサーバー作成までを実装。 |
+| [B](https://github.com/kawakawa42Tokyo202604/B) | C / Compiler | 開発準備段階。B言語コンパイラの構成とMakefileを用意し、本体は未実装。 |
 
 </details>
 
