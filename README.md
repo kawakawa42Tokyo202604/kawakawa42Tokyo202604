@@ -84,8 +84,6 @@ I build C, Python, and Go programs through 42 Tokyo projects, including librarie
 | [Fly-in](https://github.com/kawakawa42Tokyo202604/42Tokyocursus/tree/main/FLYIN) | Python / Pathfinding | 地点・経路の容量と移動時間を考慮し、複数ドローンの移動を計画。 |
 | [Dr Quine](https://github.com/kawakawa42Tokyo202604/Dr_Quine) | C / Assembly / Go | 自分のソースを表示・保存・連鎖生成する自己複製プログラム。 |
 | [libasm](https://github.com/kawakawa42Tokyo202604/libasm) | x86-64 Assembly | Cから呼び出せる文字列・メモリ・ファイル入出力の基本関数集。 |
-| [Inception of Things](https://github.com/kawakawa42Tokyo202604/Inception-of-Things) | Vagrant / K3s | 開発中。p1のサーバー・ワーカー構成と、p2のサーバー作成までを実装。 |
-| [B](https://github.com/kawakawa42Tokyo202604/B) | C / Compiler | 開発準備段階。B言語コンパイラの構成とMakefileを用意し、本体は未実装。 |
 
 </details>
 
